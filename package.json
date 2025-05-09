@@ -5,5 +5,26 @@
     "express": "^5.1.0",
     "mongoose": "^8.14.2",
     "morgan": "^1.10.0"
-  }
+  },
+  "name": "jwt-auth-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rory17swt/jwt-auth-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rory17swt/jwt-auth-template/issues"
+  },
+  "homepage": "https://github.com/rory17swt/jwt-auth-template#readme"
 }
