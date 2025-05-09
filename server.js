@@ -3,15 +3,21 @@ import morgan from 'morgan'
 import 'dotenv/config'
 import mongoose from 'mongoose'
 
+// Routers/Controllers
+import authRouter from './controllers/auth.js'
+import errorHandler from './middleware/errorHandler.js'
+
 const app = express()
 const port = process.env.PORT
 
 
 // * Middleware
+app.use(express.json())
 app.use(morgan('dev'))
 
 
-// * Router
+// * Routers
+app.use('/api', authRouter)
 
 
 // * 404 Route
